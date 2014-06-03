@@ -1,4 +1,4 @@
-define :install_plugin do
+define :install_newrelic_plugin do
 
   tar_file = File.join(params[:install_path], "#{params[:name]}-#{params[:plugin_version]}.tar.gz")
 
